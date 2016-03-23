@@ -209,7 +209,7 @@
       ["ups", 2]
     ],
     "destinations": [
-      "ANITO", "ADMIM", "TOMAN", "BAVUS", "AROSO", "MASBO", "MERSING"
+      "ANITO", "ADMIM"
     ],
     "type": "random",
     "offset": 0,
