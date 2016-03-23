@@ -220,7 +220,7 @@
       ["ups", 2]
     ],
     "destinations": [
-      "ANITO", "ADMIM"
+      "ANITO", "ADMIM", "TOMAN"
     ],
     "type": "random",
     "offset": 0,
