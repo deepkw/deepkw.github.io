@@ -249,9 +249,9 @@
       "icao": "MERSING",
       "name": "MERSING",
       "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"],"MERSING"],
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], "MERSING"],
         "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"],
-        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"],"MERSING"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], "MERSING"],
         "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"]
       },
       "draw": ["AKOMA","MERSING"]
