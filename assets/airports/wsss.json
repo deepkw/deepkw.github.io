@@ -255,7 +255,7 @@
         "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"]
       },
       "draw": ["AKOMA","MERSING"]
-    },
+    }
   },
   "departures": {
     "airlines": [
@@ -264,7 +264,7 @@
       ["ups", 2]
     ],
     "destinations": [
-      "ANITO", "ADMIM", "TOMAN"
+      "ANITO", "ADMIM", "TOMAN", "BAVUS", "AROSO", "MASBO", "MERSING"
     ],
     "type": "random",
     "offset": 0,
