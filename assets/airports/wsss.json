@@ -111,8 +111,6 @@
     
     "REPOV": ["N0 16 23", "E104 03 00"],
     
-    "SURGA": ["N0 36 57", "E106 31 19"],
-    
     "VEPLI": ["N3 52 23", "E14 05 42"]
   },
   "runways":[
@@ -183,7 +181,7 @@
   "sids": {
     "ANITO": {
       "icao": "ANITO",
-      "name": "A knee toe",
+      "name": "Anito",
       "rwy": {
         "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
         "20R" : ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
@@ -191,7 +189,7 @@
         "20C": ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
       },
       "draw": [["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"], ["SUNGO","DOGRA"]]
-    },
+    }
   },
   "departures": {
     "airlines": [
