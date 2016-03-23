@@ -223,6 +223,17 @@
       },
       "draw": [["SASGA","SUKOK","AKOMA","AROSO"], ["TOKIM","AKOMA"], ["TOPOM","AKOMA"]]
     }
+    "MASBO": {
+      "icao": "MASBO",
+      "name": "MASBO",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AGVAR", "11000+"], "SABKA", "MASBO"]
+      },
+      "draw": ["AKOMA","AGVAR","SABKA","MASBO"]
+    }
   },
   "departures": {
     "airlines": [
@@ -231,7 +242,7 @@
       ["ups", 2]
     ],
     "destinations": [
-      "ANITO", "ADMIM", "TOMAN", "AROSO"
+      "ANITO", "ADMIM", "TOMAN", "AROSO", "MASBO"
     ],
     "type": "random",
     "offset": 0,
