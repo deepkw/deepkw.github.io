@@ -201,6 +201,17 @@
       },
       "draw": [["DOGRA","AGROT","ABVIP","ADMIM","ASUNA"], ["SUNGO","SAMKO","ABVIP"], ["SUGAM","SAMKO"]]
     },
+    "BAVUS": {
+      "icao": "BAVUS",
+      "name": "BAVUS",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "DOGRA", "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", "DOSNO", "VENPA", "ATKAX", "BAVUS"]
+      },
+      "draw": [["TOPOM","HOSBA","TOMAN"], ["SUNGO","DOGRA","HOSBA"]]
+    },
     "TOMAN": {
       "icao": "TOMAN",
       "name": "TOMAN",
@@ -210,8 +221,41 @@
         "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
         "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"]
       },
-      "draw": [["TOPOM","HOSBA","TOMAN"], ["SUNGO","DOGRA","HOSBA"]]
-    }
+      "draw": ["DOSNO","VENPA","ATKAX","BAVUS"]
+    },
+    "AROSO": {
+      "icao": "AROSO",
+      "name": "AROSO",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], ["AKMET", "11000+"], "AROSO"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], ["AKOMA", "7000+"], ["AKMET", "11000+"], "AROSO"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], ["AKMET", "11000+"], "AROSO"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], ["AKOMA", "7000+"], ["AKMET", "11000+"], "AROSO"]
+      },
+      "draw": [["SASGA","SUKOK","AKOMA","AROSO"], ["TOKIM","AKOMA"], ["TOPOM","AKOMA"]]
+    },
+    "MASBO": {
+      "icao": "MASBO",
+      "name": "MASBO",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"]
+      },
+      "draw": ["AKOMA","AGVAR","SABKA","MASBO"]
+    },
+    "MERSING": {
+      "icao": "MERSING",
+      "name": "MERSING",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"],"MERSING"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"],"MERSING"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"]
+      },
+      "draw": ["AKOMA","MERSING"]
+    },
   },
   "departures": {
     "airlines": [
