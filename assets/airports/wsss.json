@@ -208,7 +208,7 @@
         "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
         "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"],
         "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
-        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"]
       },
       "draw": [["TOPOM","HOSBA","TOMAN"], ["SUNGO","DOGRA","HOSBA"]]
     }
