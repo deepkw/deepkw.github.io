@@ -222,7 +222,7 @@
         "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AKMET", "11000+"], "AROSO"]
       },
       "draw": [["SASGA","SUKOK","AKOMA","AROSO"], ["TOKIM","AKOMA"], ["TOPOM","AKOMA"]]
-    }
+    },
     "MASBO": {
       "icao": "MASBO",
       "name": "MASBO",
