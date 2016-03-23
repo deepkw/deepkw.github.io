@@ -190,7 +190,7 @@
         "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
         "20C": ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
       },
-      "draw": [["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"], ["SUNGO",DOGRA]]
+      "draw": [["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"], ["SUNGO","DOGRA"]]
     }
   },
   "departures": {
