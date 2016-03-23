@@ -21,57 +21,9 @@
     "speed": 5
   },
   "fixes": {
-    "TOPOM": ["N37.860861", "W122.211678"],
-    "TOKIM": ["N37.585894", "W122.296883"],
-    "SUGPO": ["N37.40121667", "W121.8619"],
-    "SUGAM": ["N37.40121667", "W121.8619"],
-    "DOKTA": ["N37.40121667", "W121.8619"],
-    "SAPTI": ["N37.40121667", "W121.8619"],
-    "SUNVA": ["N37.40121667", "W121.8619"],
-    "SUNGO": ["N37.40121667", "W121.8619"],
-    "SASGA": ["N37.40121667", "W121.8619"],
-    "BTM": ["N37.40121667", "W121.8619"],
-    "DOGRA": ["N37.40121667", "W121.8619"],
-    "DOSNO": ["N37.40121667", "W121.8619"],
-    "ANITO": ["N37.40121667", "W121.8619"],
-    "AGROT": ["N37.40121667", "W121.8619"],
-    "SAMKO": ["N37.40121667", "W121.8619"],
-    "ABVIP": ["N37.40121667", "W121.8619"],
-    "ADMIM": ["N37.40121667", "W121.8619"],
-    "ASUNA": ["N37.40121667", "W121.8619"],
-    "RUVIK": ["N37.40121667", "W121.8619"],
-    "HOSBA": ["N37.40121667", "W121.8619"],
-    "TOMAN": ["N37.40121667", "W121.8619"],
-    "VENPA": ["N37.40121667", "W121.8619"],
-    "ATKAX": ["N37.40121667", "W121.8619"],
-    "BAVUS": ["N37.40121667", "W121.8619"],
-    "ATRUM": ["N37.40121667", "W121.8619"],
-    "SUKOK": ["N37.40121667", "W121.8619"],
-    "AKOMA": ["N37.40121667", "W121.8619"],
-    "AROSO": ["N37.40121667", "W121.8619"],
-    "VTK": ["N37.40121667", "W121.8619"],
-
+    "PU": ["N1.423219", "E103.933046"],
+    "SINJON": ["N1.222731", "E103.854178"],
   },
-   "restricted": [
-    {
-      "name": "R157",
-      "height": "1400ft",
-      "coordinates": [
-        ["N51.4939959", "W0.1943893"],
-        ["N51.4995531", "W0.2053756"],
-        ["N51.5076740", "W0.2046890"],
-      ]
-    },
-    {
-      "name": "R158",
-      "height": "1400ft",
-      "coordinates": [
-        ["N51.5105373", "W0.1185150"],
-        ["N51.5186562", "W0.1150817"],
-        ["N51.5242104", "W0.0951690"],
-      ]
-    },
-  ],
   "runways":[
     {
       "name":        ["02L", "20R"],
@@ -96,75 +48,17 @@
     },
   ],
   "sids": {
-    "OFFSH9": {
-      "icao": "OFFSH9",
-      "name": "Offshore Nine",
+    "SINJON": {
+      "icao": "SINJON",
+      "name": "Sin John",
       "rwy": {
-        "1L" : [["SEPDY", "1600+"], "WAMMY"],
-        "1R" : [["SEPDY", "1600+"], "WAMMY"],
-        "28L": [["SENZY", "2500+"], "WAMMY"],
-        "28R": [["SENZY", "2500+"], "WAMMY"]
+        "02L" : [["PU", "1600+"], "SINJON"],
+        "20R" : [["PU", "1600+"], "SINJON"],
+        "02C": [["PU", "1600+"], "SINJON"],
+        "20C": [["PU", "1600+"], "SINJON"],
       },
-      "body": [["SEGUL", "16000+"], ["CYPRS", "22000+"], "MCKEY"],
-      "transitions": {
-        "FLW": ["MQO", "FLW"],
-        "RZS": ["MQO", "RZS"],
-        "GVO": ["MQO", "GVO"],
-        "SXC": ["DAISY", "BENET", "SXC"]
-      },
-      "draw": [["SEPDY","WAMMY"], ["SENZY","WAMMY","SEGUL","CYPRS","MCKEY"], ["MCKEY","MQO"], ["MQO","FLW*"], ["MQO","RZS*"], ["MQO","GVO*"], ["MCKEY","DAISY","BENET","SXC*"]]
+      "draw": [["PU","SINJON"]]
     },
-    "EUGEN1": {
-      "icao": "EUGEN1",
-      "name": "Eugen One",
-      "rwy": {
-        "1L" : [["SEPDY", "1900+"], "ZUPAX"],
-        "1R" : [["SEPDY", "1900+"], "ZUPAX"],
-        "28L": [["SENZY", "2500+"], "ZUPAX"],
-        "28R": [["SENZY", "2500+"], "ZUPAX"]
-      },
-      "body": ["EUGEN", "SHOEY"],
-      "transitions": {
-          "SNS": ["SNS"],
-          "BSR": ["BSR"],
-          "SHOEY": []
-      },
-      "draw": [["SEPDY","ZUPAX"], ["SENZY","ZUPAX","EUGEN","SHOEY*"], ["SHOEY","SNS*"], ["SHOEY","BSR*"]]
-    },
-    "QUIET7": {
-      "icao": "QUIET7",
-      "name": "Quiet Seven",
-      "rwy": {
-        "1L" : ["SASLY", "REBAS"],
-        "1R" : ["SASLY", "REBAS"],
-        "28L": ["REBAS"],
-        "28R": ["REBAS"]
-      },
-      "body": [],
-      "transitions": {
-        "ENI": ["SASSU", "ENI"],
-        "RBL": ["SASSU", "SAWNA", "RBL"],
-        "CIC": ["SASSU", "SAWNA", "CIC"],
-        "SAC": ["SAC"],
-        "LIN": ["LIN"]
-      },
-      "draw": [["SASLY","REBAS"], ["REBAS","SASSU"], ["SASSU","ENI*"], ["SASSU","SAWNA"], ["SAWNA","RBL*"], ["SAWNA","CIC*"], ["REBAS","SAC*"], ["REBAS","LIN*"]]
-    },
-    "MOLEN7": {
-      "icao": "MOLEN7",
-      "name": "Molen Seven",
-      "rwy": {
-        "10L": [["SIPLY", "2500+"], "_SIPLY233-STINS144", "STINS"],
-        "10R": [["SIPLY", "2500+"], "_SIPLY233-STINS144", "STINS"],
-        "28L": [["WESLA", "1800+"], "STINS"],
-        "28R": [["WESLA", "1800+"], "STINS"]
-      },
-      "body": ["MOLEN"],
-      "transitions": {
-        "ENI": ["ENI"]
-      },
-      "draw": [["SIPLY","_SIPLY233-STINS144","STINS"], ["WESLA","STINS","MOLEN"], ["MOLEN","ENI*"]]
-    }
   },
   "departures": {
     "airlines": [
@@ -173,7 +67,7 @@
       ["ups", 2]
     ],
     "destinations": [
-      "MOLEN7", "OFFSH9", "EUGEN1", "QUIET7"
+      "SINJON"
     ],
     "type": "random",
     "offset": 0,
@@ -184,7 +78,7 @@
       "radial":   60,
       "heading":  170,
       "speed":    250,
-      "fixes":   ["MOVDD", "RISTI", "CEDES"],
+      "fixes":   ["PU"],
       "airlines":  [
         ["ual", 1],
         ["baw", 1],
@@ -196,47 +90,5 @@
       "frequency": 12,
       "altitude":  10000
     },
-    {
-      "radial":   90,
-      "speed":    250,
-      "fixes":    ["FAITH"],
-      "airlines":  [
-        ["ual", 2],
-        ["baw", 5],
-        ["fastga", 1]
-      ],
-      "type": "random",
-      "offset": 5,
-      "frequency": 6,
-      "altitude":  10000
-    },
-    {
-      "radial":   145,
-      "speed":    250,
-      "fixes":    ["SKUNK", "BOLDR", "MENLO"],
-      "airlines":  [
-        ["ual", 4],
-        ["baw", 3],
-        ["dal", 2],
-        ["aca", 1]
-      ],
-      "type": "wave",
-      "offset": 3,
-      "frequency": 12,
-      "altitude":  10000
-    },
-    {
-      "radial":   315,
-      "speed":    250,
-      "fixes":    ["PYE", "DUXBY", "SFO"],
-      "airlines":  [
-        ["ual", 10],
-        ["baw", 10],
-        ["fastga", 1]
-      ],
-      "type": "random",
-      "frequency": 6,
-      "altitude":  10000
-    }
   ]
 }
