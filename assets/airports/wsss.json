@@ -184,11 +184,33 @@
       "name": "Anito",
       "rwy": {
         "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "20R" : ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "20R" : ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
         "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "20C": ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
+        "20C": ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
       },
       "draw": [["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"], ["SUNGO","DOGRA"]]
+    },
+    "ADMIM": {
+      "icao": "ADMIM",
+      "name": "ADMIM",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "AGROT", "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SAMKO", "6000+"], "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "AGROT", "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SAMKO", "6000+"], "ABVIP", ["ADMIM", "10000+"], "ASUNA"]
+      },
+      "draw": [["DOGRA","AGROT","ABVIP","ADMIM","ASUNA"], ["SUNGO","SAMKO","ABVIP"], ["SUGAM","SAMKO"]]
+    },
+    "TOMAN": {
+      "icao": "TOMAN",
+      "name": "TOMAN",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"],
+      },
+      "draw": [["TOPOM","HOSBA","TOMAN"], ["SUNGO","DOGRA","HOSBA"]]
     }
   },
   "departures": {
@@ -198,7 +220,7 @@
       ["ups", 2]
     ],
     "destinations": [
-      "ANITO"
+      "ANITO", "ADMIM", "TOMAN"
     ],
     "type": "random",
     "offset": 0,
