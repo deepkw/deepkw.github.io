@@ -211,6 +211,17 @@
         "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"]
       },
       "draw": [["TOPOM","HOSBA","TOMAN"], ["SUNGO","DOGRA","HOSBA"]]
+    },
+    "BAVUS": {
+      "icao": "BAVUS",
+      "name": "BAVUS",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "DOGRA", "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", "DOSNO", "VENPA", "ATKAX", "BAVUS"]
+      },
+      "draw": ["DOSNO","VENPA","ATKAX","BAVUS"]
     }
   },
   "departures": {
@@ -220,7 +231,7 @@
       ["ups", 2]
     ],
     "destinations": [
-      "ANITO", "ADMIM", "TOMAN"
+      "ANITO", "ADMIM", "TOMAN", "BAVUS"
     ],
     "type": "random",
     "offset": 0,
