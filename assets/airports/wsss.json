@@ -58,7 +58,7 @@
         "20C": [["PU", "1600+"], "SINJON"],
       },
       "draw": [["PU","SINJON"]]
-    },
+    }
   },
   "departures": {
     "airlines": [
@@ -89,6 +89,6 @@
       "offset": 0,
       "frequency": 12,
       "altitude":  10000
-    },
+    }
   ]
 }
