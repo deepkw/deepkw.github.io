@@ -181,16 +181,16 @@
     }
   ],
   "sids": {
-    "SINJON": {
-      "icao": "SINJON",
-      "name": "Sin John",
+    "ANITO": {
+      "icao": "ANITO",
+      "name": "A knee toe",
       "rwy": {
-        "02L" : [["PU", "1600+"], "SINJON"],
-        "20R" : [["PU", "1600+"], "SINJON"],
-        "02C": [["PU", "1600+"], "SINJON"],
-        "20C": [["PU", "1600+"], "SINJON"]
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "20R" : ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "20C": ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
       },
-      "draw": [["PU","SINJON"]]
+      "draw": [["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"], ["SUNGO",DOGRA]]
     }
   },
   "departures": {
