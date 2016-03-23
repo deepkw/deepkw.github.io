@@ -286,7 +286,7 @@
       ["ups", 2]
     ],
     "destinations": [
-      "ANITO", "ADMIM", "TOMAN", "AROSO", "MASBO", "BAVUS", "MERSING"
+      "ANITO", "ADMIM", "TOMAN", "AROSO", "MASBO", "BAVUS", "MERSING", "VENIX", "KADAR"
     ],
     "type": "random",
     "offset": 0,
