@@ -1060,6 +1060,7 @@ function airport_init() {
 
   airport_load("ltba");
   airport_load("vhhh");
+  airport_load("wsss");
 }
 
 function airport_ready() {
