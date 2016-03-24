@@ -1,0 +1,10 @@
+{
+  "name": "Firefly",
+  "callsign": {
+    "name": "Firefly",
+    "length": 2
+  },
+  "aircraft": [
+    ["AT72", 9]
+  ]
+}
