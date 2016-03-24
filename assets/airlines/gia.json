@@ -1,0 +1,11 @@
+{
+  "name": "Garuda Indonesia",
+  "callsign": {
+    "name": "Indonesia",
+    "length": 3
+  },
+  "aircraft": [
+    ["B738", 15],
+    ["B77W", 1]
+  ]
+}
