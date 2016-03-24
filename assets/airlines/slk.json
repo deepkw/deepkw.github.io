@@ -1,0 +1,12 @@
+{
+  "name": "Silkair",
+  "callsign": {
+    "name": "Silkair",
+    "length": 3
+  },
+  "aircraft": [
+    ["A319", 4],
+    ["A320", 11],
+    ["B738", 14]
+  ]
+}
