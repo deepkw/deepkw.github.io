@@ -279,19 +279,34 @@
       "draw": [["TOPOM","AKOMA"], ["ATKAX","KADAR"]]
    }
   },
-  "departures": {
-    "airlines": [
-      ["ual", 11],
-      ["baw", 9],
-      ["ups", 2]
-    ],
-    "destinations": [
-      "ANITO", "ADMIM", "TOMAN", "AROSO", "MASBO", "BAVUS", "MERSING", "VENIX", "KADAR"
-    ],
-    "type": "random",
-    "offset": 0,
-    "frequency": 38
-  },
+  "departures": [
+    {
+      "_name": "ANITO"
+      "airlines": [
+        ["ual", 11],
+        ["baw", 9],
+      ],
+      "destinations": [
+        "ANITO", "ADMIM"
+      ],
+      "type": "random",
+      "offset": 0,
+      "frequency": 38
+    },
+    {
+      "_name": "REST"
+      "airlines": [
+        ["ual", 2],
+        ["baw", 21],
+      ],
+      "destinations": [
+        "AROSO", "MERSING", "TOMAN", "BAVUS", "KADAR", "MASBO", "VENIX"
+      ],
+      "type": "random",
+      "offset": 0,
+      "frequency": 38
+    }
+  ],
   "arrivals": [
     {
       "_name":  "ARAMA",
