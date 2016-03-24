@@ -281,7 +281,7 @@
   },
   "departures": [
     {
-      "_name": "ANITO"
+      "_name": "ANITO",
       "airlines": [
         ["ual", 11],
         ["baw", 9],
