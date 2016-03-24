@@ -1,0 +1,11 @@
+{
+  "name": "Tiger Airways",
+  "callsign": {
+    "name": "Go Cat",
+    "length": 4
+  },
+  "aircraft": [
+    ["A319", 2],
+    ["A320", 23]
+  ]
+}
