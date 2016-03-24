@@ -1,0 +1,11 @@
+{
+  "name": "Scoot",
+  "callsign": {
+    "name": "Scooter",
+    "length": 3
+  },
+  "aircraft": [
+    ["B777", 2],
+    ["B788", 10]
+  ]
+}
