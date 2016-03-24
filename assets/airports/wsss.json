@@ -279,7 +279,7 @@
       "draw": [["TOPOM","AKOMA"], ["ATKAX","KADAR"]]
    }
   },
-  "departures": [
+  "departures": {
       "_name": "ANITO",
       "airlines": [
         ["ual", 11],
@@ -291,7 +291,7 @@
       "type": "random",
       "offset": 0,
       "frequency": 38
-  ],
+  },
   "arrivals": [
     {
       "_name":  "ARAMA",
