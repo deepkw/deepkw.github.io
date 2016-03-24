@@ -281,11 +281,14 @@
   },
   "departures": {
       "airlines": [
-        ["ual", 11],
-        ["baw", 9]
+        ["sia", 150],
+        ["slk", 83],
+        ["jsa", 72],
+        ["tgw", 72],
+        ["axm", 40]
       ],
       "destinations": [
-        "ANITO", "ADMIM"
+        "ANITO", "ADMIM", "TOMAN", "BAVUS", "AROSO", "MASBO", "MERSING", "VENIX", "KADAR"
       ],
       "type": "random",
       "offset": 0,
@@ -299,10 +302,11 @@
       "speed":    250,
       "fixes":   ["ARAMA", "BOBGAG", "BOKIP", "SAMKO"],
       "airlines":  [
-        ["ual", 1],
-        ["baw", 1],
-        ["dal", 1],
-        ["aal", 1]
+        ["sia", 150],
+        ["slk", 83],
+        ["jsa", 72],
+        ["tgw", 72],
+        ["axm", 40]
       ],
       "type": "wave",
       "offset": 0,
