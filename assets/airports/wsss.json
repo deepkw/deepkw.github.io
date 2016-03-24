@@ -284,7 +284,7 @@
       "_name": "ANITO",
       "airlines": [
         ["ual", 11],
-        ["baw", 9],
+        ["baw", 9]
       ],
       "destinations": [
         "ANITO", "ADMIM"
@@ -297,7 +297,7 @@
       "_name": "REST",
       "airlines": [
         ["ual", 2],
-        ["baw", 21],
+        ["baw", 21]
       ],
       "destinations": [
         "AROSO", "MERSING", "TOMAN", "BAVUS", "KADAR", "MASBO", "VENIX"
