@@ -279,8 +279,9 @@
       "draw": [["TOPOM","AKOMA"], ["ATKAX","KADAR"]]
    }
   },
-  "departures": {
-      "_name": "FIRST"
+  "departures": [
+    {
+      "_name": "FIRST",
       "airlines": [
         ["ual", 11],
         ["baw", 9]
@@ -291,7 +292,8 @@
       "type": "random",
       "offset": 0,
       "frequency": 38
-  },
+    }
+  ],
   "arrivals": [
     {
       "_name":  "ARAMA",
