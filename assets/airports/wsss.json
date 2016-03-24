@@ -280,7 +280,6 @@
    }
   },
   "departures": [
-    {
       "_name": "ANITO",
       "airlines": [
         ["ual", 11],
@@ -292,20 +291,6 @@
       "type": "random",
       "offset": 0,
       "frequency": 38
-    },
-    {
-      "_name": "REST",
-      "airlines": [
-        ["ual", 2],
-        ["baw", 21]
-      ],
-      "destinations": [
-        "AROSO", "MERSING", "TOMAN", "BAVUS", "KADAR", "MASBO", "VENIX"
-      ],
-      "type": "random",
-      "offset": 0,
-      "frequency": 38
-    }
   ],
   "arrivals": [
     {
