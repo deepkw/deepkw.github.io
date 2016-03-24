@@ -1,0 +1,15 @@
+{
+  "name": "Singapore Airlines",
+  "callsign": {
+    "name": "Singapore",
+    "length": 3
+  },
+  "aircraft": [
+    ["A333", 30],
+    ["A388", 19],
+    ["B772", 11],
+    ["B77E", 14],
+    ["B773", 7],
+    ["B77W", 27]
+  ]
+}
