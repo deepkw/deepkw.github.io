@@ -294,10 +294,11 @@
   },
   "arrivals": [
     {
-      "radial":   60,
-      "heading":  170,
+      "_name":  "ARAMA",
+      "radial":   286,
+      "heading":  147,
       "speed":    250,
-      "fixes":   ["PU"],
+      "fixes":   ["ARAMA", "BOBGAG", "BOKIP", "SAMKO"],
       "airlines":  [
         ["ual", 1],
         ["baw", 1],
