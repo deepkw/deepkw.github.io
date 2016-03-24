@@ -1,0 +1,10 @@
+{
+  "name": "Jetstar Asia",
+  "callsign": {
+    "name": "Jetstar",
+    "length": 3
+  },
+  "aircraft": [
+    ["A320", 18]
+  ]
+}
