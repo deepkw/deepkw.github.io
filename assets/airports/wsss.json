@@ -302,11 +302,11 @@
       "speed":    250,
       "fixes":   ["ARAMA", "BOBGAG", "BOKIP", "SAMKO"],
       "airlines":  [
-        ["sia", 150],
-        ["slk", 83],
-        ["jsa", 72],
-        ["tgw", 72],
-        ["axm", 40]
+        ["sia", 35],
+        ["slk", 39],
+        ["jsa", 18],
+        ["tgw", 26],
+        ["axm", 21]
       ],
       "type": "wave",
       "offset": 0,
