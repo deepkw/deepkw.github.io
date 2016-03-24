@@ -294,7 +294,7 @@
       "frequency": 38
     },
     {
-      "_name": "REST"
+      "_name": "REST",
       "airlines": [
         ["ual", 2],
         ["baw", 21],
