@@ -211,6 +211,11 @@ function airline_init() {
   airline_load("DLH");
   airline_load("VIR");
   airline_load("THY");
+  airline_load("SIA");
+  airline_load("SLK");
+  airline_load("TGW");
+  airline_load("JSA");
+  airline_load("AXM");
 
 }
 
