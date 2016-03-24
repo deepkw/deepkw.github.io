@@ -1,0 +1,11 @@
+{
+  "name": "Malaysian Airlines",
+  "callsign": {
+    "name": "Malaysian",
+    "length": 3
+  },
+  "aircraft": [
+    ["B737", 5],
+    ["B738", 5]
+  ]
+}
