@@ -183,10 +183,10 @@
       "icao": "ANITO",
       "name": "ANITO",
       "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "20R" : ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "20C": ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
+        "02L" : [["TOPOM", "A20+"], ["DOKTA", "A40+"], ["DOGRA", "A50+"], "DOSNO", "ANITO"],
+        "20R" : ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "A40+"], "BATAM", ["DOGRA", "A60+"], "DOSNO", "ANITO"],
+        "02C": [["TOKIM", "A20+"], ["DOKTA", "A40+"], ["DOGRA", "A60+"], "DOSNO", "ANITO"],
+        "20C": ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "A40+"], "BATAM", ["DOGRA", "A60+"], "DOSNO", "ANITO"]
       },
       "draw": [["SUNGO","DOGRA"], ["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"]]
     }
