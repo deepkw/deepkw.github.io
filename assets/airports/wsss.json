@@ -179,16 +179,16 @@
     }
   ],
   "sids": {
-   "KADAR": {
-      "icao": "KADAR",
-      "name": "KADAR",
+   "VENIX": {
+      "icao": "VENIX",
+      "name": "VENIX",
       "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "KADAR"],
-        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "KADAR"],
-        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "KADAR"],
-        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "KADAR"]
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"]
       },
-      "draw": [["TOPOM","AKOMA"], ["ATKAX","KADAR"]]
+      "draw": [["TOPOM","AKOMA"], ["VENPA","VENIX","SURGA"]]
    }
   },
   "departures": {
@@ -200,7 +200,7 @@
         ["axm", 40]
       ],
       "destinations": [
-        "KADAR"
+        "VENIX"
       ],
       "type": "random",
       "offset": 0,
