@@ -181,7 +181,7 @@
   "sids": {
     "ANITO": {
       "icao": "ANITO",
-      "name": "Anito",
+      "name": "ANITO",
       "rwy": {
         "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
         "20R" : ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
@@ -300,7 +300,7 @@
       "radial":   286,
       "heading":  147,
       "speed":    250,
-      "fixes":   ["ARAMA", "BOBGAG", "BOKIP", "SAMKO"],
+      "fixes":   ["ARAMA", "BOBAG", "BOKIP", "SAMKO"],
       "airlines":  [
         ["sia", 35],
         ["slk", 39],
