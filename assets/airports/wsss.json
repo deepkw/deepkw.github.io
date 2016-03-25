@@ -300,7 +300,7 @@
       "radial":   286,
       "heading":  147,
       "speed":    250,
-      "fixes":   ["ARAMA", "BOBGAG", "BOKIP", "SAMKO"],
+      "fixes":   ["ARAMA", "BOBAG", "BOKIP", "SAMKO"],
       "airlines":  [
         ["sia", 35],
         ["slk", 39],
