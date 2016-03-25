@@ -290,9 +290,10 @@
       "destinations": [
         "ANITO", "ADMIM", "TOMAN", "BAVUS", "AROSO", "MASBO", "MERSING", "VENIX", "KADAR"
       ],
-      "type": "random",
-      "offset": 0,
-      "frequency": 38
+      "type": "cyclic",
+      "frequency": [27,33],
+      "period": 60
+      "offset": 15
  },
   "arrivals": [
     {
