@@ -179,17 +179,17 @@
     }
   ],
   "sids": {
-   "VENIX": {
-      "icao": "VENIX",
-      "name": "VENIX",
+    "ANITO": {
+      "icao": "ANITO",
+      "name": "ANITO",
       "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
-        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
-        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
-        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"]
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "20R" : ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "20C": ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
       },
-      "draw": [["TOPOM","AKOMA"], ["VENPA","VENIX","SURGA"]]
-   }
+      "draw": [["SUNGO","DOGRA"], ["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"]]
+    }
   },
   "departures": {
       "airlines": [
@@ -200,7 +200,7 @@
         ["axm", 40]
       ],
       "destinations": [
-        "VENIX"
+        "ANITO"
       ],
       "type": "random",
       "offset": 0,
