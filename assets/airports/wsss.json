@@ -179,94 +179,6 @@
     }
   ],
   "sids": {
-    "ANITO": {
-      "icao": "ANITO",
-      "name": "ANITO",
-      "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "20R" : ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "20C": ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
-      },
-      "draw": [["SUNGO","DOGRA"], ["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"]]
-    },
-    "ADMIM": {
-      "icao": "ADMIM",
-      "name": "ADMIM",
-      "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "AGROT", "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
-        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SAMKO", "6000+"], "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
-        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "AGROT", "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
-        "20C": [["SUDPO", "2000+"], "SUGAM", ["SAMKO", "6000+"], "ABVIP", ["ADMIM", "10000+"], "ASUNA"]
-      },
-      "draw": [["SUNGO","SAMKO","ABVIP"], ["SUGAM","SAMKO"], ["DOGRA","AGROT","ABVIP","ADMIM","ASUNA"]]
-    },
-    "TOMAN": {
-      "icao": "TOMAN",
-      "name": "TOMAN",
-      "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
-        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"],
-        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
-        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"]
-      },
-      "draw": [["SUNGO","DOGRA","HOSBA"], ["TOPOM","HOSBA","TOMAN"]]
-    },
-    "AROSO": {
-      "icao": "AROSO",
-      "name": "AROSO",
-      "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], ["AKMET", "11000+"], "AROSO"],
-        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AKMET", "11000+"], "AROSO"],
-        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], ["AKMET", "11000+"], "AROSO"],
-        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AKMET", "11000+"], "AROSO"]
-      },
-      "draw": [["TOKIM","AKOMA"], ["SASGA","SUKOK","AKOMA","AROSO"]]
-    },
-    "MASBO": {
-      "icao": "MASBO",
-      "name": "MASBO",
-      "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
-        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AGVAR", "11000+"], "SABKA", "MASBO"],
-        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
-        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AGVAR", "11000+"], "SABKA", "MASBO"]
-      },
-      "draw": [["TOPOM","AKOMA"], ["AKOMA","AGVAR","SABKA","MASBO"]]
-    },
-    "BAVUS": {
-      "icao": "BAVUS",
-      "name": "BAVUS",
-      "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "BAVUS"],
-        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "DOGRA", "DOSNO", "VENPA", "ATKAX", "BAVUS"],
-        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "BAVUS"],
-        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", "DOSNO", "VENPA", "ATKAX", "BAVUS"]
-      },
-      "draw": [["TOPOM","AKOMA"], ["DOSNO","VENPA","ATKAX","BAVUS"]]
-    },
-   "MERSING": {
-      "icao": "MERSING",
-      "name": "MERSING",
-      "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], "MERSING"],
-        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"],
-        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], "MERSING"],
-        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"]
-      },
-      "draw": [["TOPOM","AKOMA"], ["AKOMA","MERSING"]]
-   },
-   "VENIX": {
-      "icao": "VENIX",
-      "name": "VENIX",
-      "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
-        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
-        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
-        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"]
-      },
-      "draw": [["TOPOM","AKOMA"], ["VENPA","VENIX","SURGA"]]
-   },
    "KADAR": {
       "icao": "KADAR",
       "name": "KADAR",
@@ -288,7 +200,7 @@
         ["axm", 40]
       ],
       "destinations": [
-        "ANITO", "ADMIM", "TOMAN", "BAVUS", "AROSO", "MASBO", "MERSING", "VENIX", "KADAR"
+        "KADAR"
       ],
       "type": "random",
       "offset": 0,
