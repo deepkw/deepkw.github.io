@@ -100,10 +100,10 @@
       "icao": "SINJON",
       "name": "Sin John",
       "rwy": {
-        "02L" : [["PU", "1600+"], "SINJON"],
-        "20R" : [["PU", "1600+"], "SINJON"],
-        "02C": [["PU", "1600+"], "SINJON"],
-        "20C": [["PU", "1600+"], "SINJON"]
+        "02L" : ["PU", "SINJON"],
+        "20R" : ["PU", "SINJON"],
+        "02C": ["PU", "SINJON"],
+        "20C": ["PU", "SINJON"]
       },
       "draw": [["PU","SINJON"]]
     }
