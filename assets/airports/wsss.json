@@ -9,8 +9,8 @@
   "icao": "WSSS",
   "iata": "SIN",
   "magnetic_north": 0.24,
-  "ctr_radius": 120,
-  "ctr_ceiling": 11000,
+  "ctr_radius": 80,
+  "ctr_ceiling": 23000,
   "initial_alt": 5000,
   "position": ["N1.364420", "E103.991531"],
   "rr_radius_nm": 5.0,
@@ -68,8 +68,8 @@
     "AKMET": ["N1 53 55", "E103 43 39"],
     "AROSO": ["N2 08 46", "E103 24 21"],
     
-    "VENIX": ["N0 17 23", "E106 05 57"],
-    "SURGA": ["N0 33 05", "E106 31 93"],
+    "VENIX": ["N0 21 56", "E106 05 21"],
+    "SURGA": ["N0 36 57", "E106 31 19"],
     
     "KADAR": ["N0 06 47", "E107 43 42"],
     
@@ -181,44 +181,106 @@
   "sids": {
     "ANITO": {
       "icao": "ANITO",
-      "name": "ANITO",
+      "name": "Anito",
       "rwy": {
-        "02L" : [["TOPOM", "A20+"], ["DOKTA", "A40+"], ["DOGRA", "A50+"], "DOSNO", "ANITO"],
-        "20R" : ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "A40+"], "BATAM", ["DOGRA", "A60+"], "DOSNO", "ANITO"],
-        "02C": [["TOKIM", "A20+"], ["DOKTA", "A40+"], ["DOGRA", "A60+"], "DOSNO", "ANITO"],
-        "20C": ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "A40+"], "BATAM", ["DOGRA", "A60+"], "DOSNO", "ANITO"]
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "20R" : ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "20C": ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
       },
-      "draw": [["SUNGO","DOGRA"], ["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"]]
+      "draw": [["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"], ["SUNGO","DOGRA"]]
+    },
+    "ADMIM": {
+      "icao": "ADMIM",
+      "name": "ADMIM",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "AGROT", "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SAMKO", "6000+"], "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "AGROT", "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SAMKO", "6000+"], "ABVIP", ["ADMIM", "10000+"], "ASUNA"]
+      },
+      "draw": [["DOGRA","AGROT","ABVIP","ADMIM","ASUNA"], ["SUNGO","SAMKO","ABVIP"], ["SUGAM","SAMKO"]]
+    },
+    "BAVUS": {
+      "icao": "BAVUS",
+      "name": "BAVUS",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "DOGRA", "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", "DOSNO", "VENPA", "ATKAX", "BAVUS"]
+      },
+      "draw": ["DOSNO","VENPA","ATKAX","BAVUS"]
+    },
+    "TOMAN": {
+      "icao": "TOMAN",
+      "name": "TOMAN",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"]
+      },
+      "draw": [["TOPOM","HOSBA","TOMAN"], ["SUNGO","DOGRA","HOSBA"]]
+    },
+    "AROSO": {
+      "icao": "AROSO",
+      "name": "AROSO",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], ["AKMET", "11000+"], "AROSO"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AKMET", "11000+"], "AROSO"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], ["AKMET", "11000+"], "AROSO"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AKMET", "11000+"], "AROSO"]
+      },
+      "draw": [["SASGA","SUKOK","AKOMA","AROSO"], ["TOKIM","AKOMA"], ["TOPOM","AKOMA"]]
+    },
+    "MASBO": {
+      "icao": "MASBO",
+      "name": "MASBO",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AGVAR", "11000+"], "SABKA", "MASBO"]
+      },
+      "draw": ["AKOMA","AGVAR","SABKA","MASBO"]
+    },
+    "MERSING": {
+      "icao": "MERSING",
+      "name": "MERSING",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], "MERSING"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], "MERSING"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"]
+      },
+      "draw": ["AKOMA","MERSING"]
     }
   },
   "departures": {
-      "airlines": [
-        ["sia", 150],
-        ["slk", 83],
-        ["jsa", 72],
-        ["tgw", 72],
-        ["axm", 40]
-      ],
-      "destinations": [
-        "ANITO"
-      ],
-      "type": "random",
-      "offset": 0,
-      "frequency": 38
- },
+    "airlines": [
+      ["ual", 11],
+      ["baw", 9],
+      ["ups", 2]
+    ],
+    "destinations": [
+      "ANITO", "ADMIM", "TOMAN", "BAVUS", "AROSO", "MASBO", "MERSING"
+    ],
+    "type": "random",
+    "offset": 0,
+    "frequency": 38
+  },
   "arrivals": [
     {
-      "_name":  "ARAMA",
-      "radial":   286,
-      "heading":  147,
+      "radial":   60,
+      "heading":  170,
       "speed":    250,
-      "fixes":   ["ARAMA", "BOBAG", "BOKIP", "SAMKO"],
+      "fixes":   ["PU"],
       "airlines":  [
-        ["sia", 35],
-        ["slk", 39],
-        ["jsa", 18],
-        ["tgw", 26],
-        ["axm", 21]
+        ["ual", 1],
+        ["baw", 1],
+        ["dal", 1],
+        ["aal", 1]
       ],
       "type": "wave",
       "offset": 0,
