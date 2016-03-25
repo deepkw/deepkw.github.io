@@ -111,6 +111,8 @@
     
     "REPOV": ["N0 16 23", "E104 03 00"],
     
+    "SURGA": ["N0 36 57", "E106 31 19"],
+    
     "VEPLI": ["N3 52 23", "E14 05 42"]
   },
   "runways":[
@@ -140,55 +142,55 @@
       "name_offset": [[0, -0.2], [0, -0.3]],
       "end":    [["N1.107463", "E104.106649"], ["N1.134574", "E104.130792"]],
       "length":      4.025,
-      "ils":         [false, false]
+      "ils":         [true, true]
     },
     {
       "name":        ["16", "34"],
       "name_offset": [[0, -0.2], [0, -0.3]],
       "end":    [["N1.655478", "E103.663979"], ["N1.623253", "E103.675674"]],
       "length":      3.8,
-      "ils":         [false, false]
+      "ils":         [true, true]
     },
    {
       "name":        ["02", "20"],
       "name_offset": [[0, -0.2], [0, -0.3]],
       "end":    [["N1.344703", "E103.902876"], ["N1.376192", "E103.916239"]],
-      "length":      3.78,
-      "ils":         [false, false]
+      "length":      3.8,
+      "ils":         [true, true]
     },
     {
       "name":        ["02", "20"],
       "name_offset": [[0, -0.2], [0, -0.3]],
       "end":    [["N1.408583", "E103.862177"], ["N1.422452", "E103.871157"]],
-      "length":      1.836,
-      "ils":         [false, false]
+      "length":      3.8,
+      "ils":         [true, true]
     },
     {
       "name":        ["04", "22"],
       "name_offset": [[0, -0.2], [0, -0.3]],
       "end":    [["N1.418494", "E103.804627"], ["N1.434368", "E103.819154"]],
-      "length":      1.9,
-      "ils":         [false, false]
+      "length":      4.025,
+      "ils":         [true, true]
     },
     {
-      "name":        ["36", "18"],
+      "name":        ["01", "19"],
       "name_offset": [[0, -0.2], [0, -0.3]],
       "end":    [["N1.375355", "E103.707188"], ["N1.400003", "E103.709323"]],
-      "length":      2.743,
-      "ils":         [false, false]
+      "length":      4.025,
+      "ils":         [true, true]
     }
   ],
   "sids": {
-    "ANITO": {
-      "icao": "ANITO",
-      "name": "Anito",
+    "SINJON": {
+      "icao": "SINJON",
+      "name": "Sin John",
       "rwy": {
-        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "20R" : ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
-        "20C": ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
+        "02L" : [["PU", "1600+"], "SINJON"],
+        "20R" : [["PU", "1600+"], "SINJON"],
+        "02C": [["PU", "1600+"], "SINJON"],
+        "20C": [["PU", "1600+"], "SINJON"]
       },
-      "draw": [["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"], ["SUNGO","DOGRA"]]
+      "draw": [["PU","SINJON"]]
     }
   },
   "departures": {
@@ -198,7 +200,7 @@
       ["ups", 2]
     ],
     "destinations": [
-      "ANITO"
+      "SINJON"
     ],
     "type": "random",
     "offset": 0,
