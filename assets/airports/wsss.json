@@ -1,5 +1,5 @@
 {
-  "name": "Singapore Changi Airport",
+  "name": "Singapore Changi International Airport",
   "level": "medium",
   "radio": {
     "twr": "Singapore Tower",
@@ -9,81 +9,304 @@
   "icao": "WSSS",
   "iata": "SIN",
   "magnetic_north": 0.24,
-  "ctr_radius": 80,
-  "ctr_ceiling": 23000,
+  "ctr_radius": 120,
+  "ctr_ceiling": 11000,
   "initial_alt": 5000,
-  "position": ["N1 21 33", "E103 59 21"],
+  "position": ["N1.364420", "E103.991531"],
   "rr_radius_nm": 5.0,
-  "rr_center": ["N1 21 33", "E103 59 21"],
+  "rr_center": ["N1.364420", "E103.991531"],
   "has_terrain": false,
   "wind": {
     "angle": 20,
     "speed": 5
   },
   "fixes": {
-    "PU": ["N1 25 23", "E103 55 59"],
-    "SINJON": ["N1 13 21", "E103 51 15"]
+    "PU": ["N1.423219", "E103.933046"],
+    "SINJON": ["N1.222731", "E103.854178"],
+    "TEKONG": ["N1 24 55", "E104 01 20"],
+    "BATAM": ["N1 08 13", "E104 07 58"],
+    "MERSING": ["N2 23 18", "E103 52 18"],
+    "JAYBEE": ["N1 30 00", "E103 42 42"],
+    
+    "ABVIP": ["N1 00 08", "E103 50 32"],
+    "SAMKO": ["N1 05 30", "E103 52 55"],
+    "SUGAM": ["N1 13 18", "E103 56 17"],
+    "SUDPO": ["N1 17 31", "E103 58 08"],
+    "TOKIM": ["N1 29 33", "E104 03 15"],
+    
+    "SUNVA": ["N1 17 56", "E103 57 22"],
+    "SUNGO": ["N1 13 38", "E103 55 32"],
+    "RAFLS": ["N1 23 05", "E103 59 33"],
+    "TOPOM": ["N1 29 55", "E104 02 27"],
+    
+    "SASGA": ["N1 10 37", "E104 02 28"],
+    "SUKOK": ["N1 15 12", "E104 04 28"],
+    "ATRUM": ["N1 32 56", "E104 00 57"],
+    "AKOMA": ["N1 45 22", "E103 54 43"],
+    "AGVAR": ["N1 47 19", "E103 41 45"],
+    "SABKA": ["N1 50 51", "E103 17 13"],
+    "MASBO": ["N2 02 48", "E102 52 51"],
+    
+    "DOGRA": ["N1 05 25", "E104 14 23"],
+    "DOKTA": ["N1 26 06", "E104 10 40"],
+    "DOSNO": ["N0 47 57", "E104 14 09"],
+    "ANITO": ["N0 17 00", "E104 52 00"],
+    
+    "AGROT": ["N1 01 08", "E103 58 08"],
+    "ADMIM": ["N0 57 33", "E103 30 33"],
+    "ASUNA": ["N0 59 48", "E103 09 54"],
+    
+    "HOSBA": ["N1 19 48", "E104 24 18"],
+    "TOMAN": ["N1 21 47", "E105 47 17"],
+    "RUVIK": ["N1 14 22", "E104 20 33"],
+    "SAPTI": ["N1 12 18", "E103 58 35"],
+    
+    "VENPA": ["N0 21 41", "E104 49 55"],
+    "ATKAX": ["N0 05 12", "E106 59 46"],
+    "BAVUS": ["N0 00 00", "E109 00 00"],
+    
+    "AKMET": ["N1 53 55", "E103 43 39"],
+    "AROSO": ["N2 08 46", "E103 24 21"],
+    
+    "VENIX": ["N0 17 23", "E106 05 57"],
+    "SURGA": ["N0 33 05", "E106 31 93"],
+    
+    "KADAR": ["N0 06 47", "E107 43 42"],
+    
+    "ARAMA": ["N1 36 54", "E103 07 12"],
+    "BOBAG": ["N1 02 30", "E103 29 54"],
+    "BOKIP": ["N1 04 21", "E103 43 53"],
+    "DOVAN": ["N1 19 38", "E104 12 49"],
+    "BIPOP": ["N1 31 22", "E104 10 18"],
+    "NYLON": ["N1 36 57", "E104 06 24"],
+    
+    "KARTO": ["N1 11 24", "E105 33 43"],
+    "KEXAS": ["N1 10 19", "E104 48 18"],
+    "LAVAX": ["N1 09 50", "E104 27 14"],
+    "IGNON": ["N1 08 47", "E104 12 57"],
+    "SANAT": ["N1 07 49", "E103 59 30"],
+    
+    "OBDOS": ["N0 25 03", "E106 55 51"],
+    "IKAGO": ["N0 38 16", "E105 29 31"],
+    "IKIMA": ["N0 43 14", "E104 55 00"],
+    "IBULA": ["N0 50 36", "E104 36 00"],
+    
+    "LELIB": ["N1 27 29", "E103 24 50"],
+    "ALFA": ["N1 30 33", "E103 49 42"],
+    "BIDUS": ["N1 35 54", "E103 57 55"],
+    
+    "BIKTA": ["N2 43 37", "E103 43 08"],
+    "PIBAP": ["N2 30 23", "E104 06 18"],
+    "PASPU": ["N1 59 15", "E104 06 18"],
+    "POSUB": ["N1 27 25", "E104 07 48"],
+    
+    "MABAL": ["N3 28 26", "E105 12 36"],
+    "KILOT": ["N3 02 17", "E104 40 23"],
+    "VINIL": ["N2 55 00", "E104 06 18"],
+    
+    "PALGA": ["N1 10 59", "E103 47 59"],
+    "PAMSI": ["N1 04 59", "E103 48 45"],
+    "REMES": ["N0 43 42", "E103 57 35"],
+    "BETBA": ["N1 33 02", "E103 53 31"],
+    
+    "REPOV": ["N0 16 23", "E104 03 00"],
+    
+    "VEPLI": ["N3 52 23", "E14 05 42"]
   },
   "runways":[
     {
       "name":        ["02L", "20R"],
       "name_offset": [[0, 0.3], [0, 0.3]],
-      "end":    [["N1 20 56", "E103 58 39"], ["N1 22 34", "E103 59 20"]],
+      "end":    [ ["N1.349", "E103.9775"], ["N1.382088", "E103.991421"]],
       "length":      4.0,
       "ils":         [true, true]
     },
     {
-      "name":        ["03", "21"],
+      "name":        ["02C", "20C"],
       "name_offset": [[0, -0.2], [0, -0.3]],
-      "end":    [["N1 19 44", "E103 49 06"], ["N1 21 43", "E103 59 56"]],
+      "end":    [["N1.328802", "E103.984984"], ["N1.362074", "E103.99906"]],
       "length":      4.0,
       "ils":         [true, true]
     },
     {
       "name":        ["02R", "20L"],
       "name_offset": [[0.3, -0.1], [0.4, 0]],
-      "end":    [["N1 19 58", "E104 00 15" ], ["N1 21 20", "E104 00 50"] ],
+      "end":    [["N1.3329", "E104.004296" ], ["N1.355682", "E104.013888"] ],
       "length":      2.75,
+      "ils":         [false, false]
+    },
+    {
+      "name":        ["04", "22"],
+      "name_offset": [[0, -0.2], [0, -0.3]],
+      "end":    [["N1.107463", "E104.106649"], ["N1.134574", "E104.130792"]],
+      "length":      4.025,
+      "ils":         [false, false]
+    },
+    {
+      "name":        ["16", "34"],
+      "name_offset": [[0, -0.2], [0, -0.3]],
+      "end":    [["N1.655478", "E103.663979"], ["N1.623253", "E103.675674"]],
+      "length":      3.8,
+      "ils":         [false, false]
+    },
+   {
+      "name":        ["02", "20"],
+      "name_offset": [[0, -0.2], [0, -0.3]],
+      "end":    [["N1.344703", "E103.902876"], ["N1.376192", "E103.916239"]],
+      "length":      3.78,
+      "ils":         [false, false]
+    },
+    {
+      "name":        ["02", "20"],
+      "name_offset": [[0, -0.2], [0, -0.3]],
+      "end":    [["N1.408583", "E103.862177"], ["N1.422452", "E103.871157"]],
+      "length":      1.836,
+      "ils":         [false, false]
+    },
+    {
+      "name":        ["04", "22"],
+      "name_offset": [[0, -0.2], [0, -0.3]],
+      "end":    [["N1.418494", "E103.804627"], ["N1.434368", "E103.819154"]],
+      "length":      1.9,
+      "ils":         [false, false]
+    },
+    {
+      "name":        ["36", "18"],
+      "name_offset": [[0, -0.2], [0, -0.3]],
+      "end":    [["N1.375355", "E103.707188"], ["N1.400003", "E103.709323"]],
+      "length":      2.743,
       "ils":         [false, false]
     }
   ],
   "sids": {
-    "SINJON": {
-      "icao": "SINJON",
-      "name": "Sinjon",
+    "ANITO": {
+      "icao": "ANITO",
+      "name": "ANITO",
       "rwy": {
-        "02L" : ["PU", "SINJON"],
-        "20R" : ["PU", "SINJON"],
-        "03": ["PU", "SINJON"],
-        "21": ["PU", "SINJON"]
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "20R" : ["SUNVA", "SUNGO", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "ANITO"],
+        "20C": ["SUDPO", "SUGAM", "SAPTI", ["SASGA", "4000+"], "BATAM", ["DOGRA", "6000+"], "DOSNO", "ANITO"]
       },
-      "draw": [["PU","SINJON"]]
-    }
+      "draw": [["SUNGO","DOGRA"], ["TOPOM","TOKIM","DOKTA","DOGRA","DOSNO","ANITO"]]
+    },
+    "ADMIM": {
+      "icao": "ADMIM",
+      "name": "ADMIM",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "AGROT", "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SAMKO", "6000+"], "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "AGROT", "ABVIP", ["ADMIM", "10000+"], "ASUNA"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SAMKO", "6000+"], "ABVIP", ["ADMIM", "10000+"], "ASUNA"]
+      },
+      "draw": [["SUNGO","SAMKO","ABVIP"], ["SUGAM","SAMKO"], ["DOGRA","AGROT","ABVIP","ADMIM","ASUNA"]]
+    },
+    "TOMAN": {
+      "icao": "TOMAN",
+      "name": "TOMAN",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["HOSBA", "7000+"], "TOMAN"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", ["RUVIK", "7000+"], "HOSBA", "TOMAN"]
+      },
+      "draw": [["SUNGO","DOGRA","HOSBA"], ["TOPOM","HOSBA","TOMAN"]]
+    },
+    "AROSO": {
+      "icao": "AROSO",
+      "name": "AROSO",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], ["AKMET", "11000+"], "AROSO"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AKMET", "11000+"], "AROSO"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], ["AKMET", "11000+"], "AROSO"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AKMET", "11000+"], "AROSO"]
+      },
+      "draw": [["TOKIM","AKOMA"], ["SASGA","SUKOK","AKOMA","AROSO"]]
+    },
+    "MASBO": {
+      "icao": "MASBO",
+      "name": "MASBO",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], ["AGVAR", "11000+"], "SABKA", "MASBO"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", ["AGVAR", "11000+"], "SABKA", "MASBO"]
+      },
+      "draw": [["TOPOM","AKOMA"], ["AKOMA","AGVAR","SABKA","MASBO"]]
+    },
+    "BAVUS": {
+      "icao": "BAVUS",
+      "name": "BAVUS",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "DOGRA", "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "BAVUS"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "DOGRA", "DOSNO", "VENPA", "ATKAX", "BAVUS"]
+      },
+      "draw": [["TOPOM","AKOMA"], ["DOSNO","VENPA","ATKAX","BAVUS"]]
+    },
+   "MERSING": {
+      "icao": "MERSING",
+      "name": "MERSING",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["AKOMA", "7000+"], "MERSING"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"],
+        "02C": [["TOKIM", "2000+"], ["AKOMA", "7000+"], "MERSING"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], "SUKOK", ["TEKONG", "7000+"], "AKOMA", "MERSING"]
+      },
+      "draw": [["TOPOM","AKOMA"], ["AKOMA","MERSING"]]
+   },
+   "VENIX": {
+      "icao": "VENIX",
+      "name": "VENIX",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "VENIX", "SURGA"]
+      },
+      "draw": [["TOPOM","AKOMA"], ["VENPA","VENIX","SURGA"]]
+   },
+   "KADAR": {
+      "icao": "KADAR",
+      "name": "KADAR",
+      "rwy": {
+        "02L" : [["TOPOM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "KADAR"],
+        "20R" : [["SUNVA", "2000+"], "SUNGO", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "KADAR"],
+        "02C": [["TOKIM", "2000+"], ["DOKTA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "KADAR"],
+        "20C": [["SUDPO", "2000+"], "SUGAM", ["SASGA", "4000+"], ["DOGRA", "6000+"], "DOSNO", "VENPA", "ATKAX", "KADAR"]
+      },
+      "draw": [["TOPOM","AKOMA"], ["ATKAX","KADAR"]]
+   }
   },
   "departures": {
-    "airlines": [
-      ["ual", 11],
-      ["baw", 9],
-      ["ups", 2]
-    ],
-    "destinations": [
-      "SINJON"
-    ],
-    "type": "random",
-    "offset": 0,
-    "frequency": 38
-  },
+      "airlines": [
+        ["sia", 150],
+        ["slk", 83],
+        ["jsa", 72],
+        ["tgw", 72],
+        ["axm", 40]
+      ],
+      "destinations": [
+        "ANITO", "ADMIM", "TOMAN", "BAVUS", "AROSO", "MASBO", "MERSING", "VENIX", "KADAR"
+      ],
+      "type": "random",
+      "offset": 0,
+      "frequency": 38
+ },
   "arrivals": [
     {
-      "radial":   60,
-      "heading":  170,
+      "_name":  "ARAMA",
+      "radial":   286,
+      "heading":  147,
       "speed":    250,
-      "fixes":   ["PU"],
+      "fixes":   ["ARAMA", "BOBAG", "BOKIP", "SAMKO"],
       "airlines":  [
-        ["ual", 1],
-        ["baw", 1],
-        ["dal", 1],
-        ["aal", 1]
+        ["sia", 35],
+        ["slk", 39],
+        ["jsa", 18],
+        ["tgw", 26],
+        ["axm", 21]
       ],
       "type": "wave",
       "offset": 0,
