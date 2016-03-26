@@ -1,0 +1,15 @@
+{
+  "name": "Emirates",
+  "callsign": {
+    "name": "Emirates",
+    "length": 3
+  },
+  "aircraft": [
+    ["A332", 13],
+    ["A343", 5],
+    ["A388", 75],
+    ["B77E", 16],
+    ["B773", 12],
+    ["B77W", 115]
+  ]
+}
