@@ -1,0 +1,10 @@
+{
+  "name": "Vietnam Airlines",
+  "callsign": {
+    "name": "Vietnam Airlines",
+    "length": 3
+  },
+  "aircraft": [
+    ["A321", 27],
+  ]
+}
