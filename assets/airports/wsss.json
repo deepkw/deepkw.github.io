@@ -301,7 +301,27 @@
       "radial":   286,
       "heading":  147,
       "speed":    250,
-      "fixes":   ["ARAMA", "BOBAG", "BOKIP", "SAMKO"],
+      "waypoints": [
+      {
+        "fix": "ARAMA",
+        "speed": 250,
+        "altitude": 10000+
+      },
+      {
+        "fix": "BOBAG",
+        "speed": 220,
+        "altitude": 10000+
+      }
+      {
+        "fix": "BOKIP",
+        "altitude": 6000+
+      }
+      {
+        "fix": "SAMKO",
+        "speed": 190,
+        "altitude": 4000+
+      }
+    ],
       "airlines":  [
         ["sia", 35],
         ["slk", 39],
