@@ -415,7 +415,7 @@
       "type": "random",
       "frequency": [9,10],
       "altitude":  23000
-    }
+    },
     {
       "_name":  "OBDOS",
       "radial":   107,
