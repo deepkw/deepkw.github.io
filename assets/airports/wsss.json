@@ -10,7 +10,7 @@
   "iata": "SIN",
   "magnetic_north": 0.24,
   "ctr_radius": 120,
-  "ctr_ceiling": 11000,
+  "ctr_ceiling": 23000,
   "initial_alt": 5000,
   "position": ["N1.364420", "E103.991531"],
   "rr_radius_nm": 5.0,
@@ -382,8 +382,8 @@
     },
    {
       "_name":  "KARTO",
-      "radial":   96,
-      "heading":  276,
+      "radial":   90,
+      "heading":  270,
       "speed":    250,
       "waypoints": [
       {
