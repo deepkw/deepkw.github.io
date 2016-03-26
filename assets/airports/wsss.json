@@ -293,7 +293,7 @@
         ["cpa", 13],
         ["lni", 11],
         ["hvn", 10],
-        ["uae", 9],
+        ["uae", 9]
       ],
       "destinations": [
         "ANITO", "ADMIM", "TOMAN", "BAVUS", "AROSO", "MASBO", "MERSING", "VENIX", "KADAR"
@@ -334,7 +334,15 @@
         ["slk", 39],
         ["jsa", 18],
         ["tgw", 26],
-        ["axm", 21]
+        ["axm", 21],
+        ["gia", 4],
+        ["mas", 16],
+        ["ffm", 14],
+        ["sco", 14],
+        ["cpa", 6],
+        ["lni", 3],
+        ["hvn", 4],
+        ["uae", 10]
       ],
       "type": "cyclic",
       "frequency": [27,33],
