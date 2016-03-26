@@ -347,6 +347,74 @@
       "type": "random",
       "frequency": [27,33],
       "altitude":  11000
-    }
+    },
+    {
+      "_name":  "ASUNA",
+      "radial":   246,
+      "heading":  82,
+      "speed":    250,
+      "waypoints": [
+      {
+        "fix": "ASUNA",
+        "speed": 250
+      },
+      {
+        "fix": "BOBAG",
+        "speed": 220,
+        "altitude": 10000
+      },
+      {
+        "fix": "BOKIP",
+        "altitude": 6000
+      },
+      {
+        "fix": "SAMKO",
+        "speed": 190,
+        "altitude": 4000
+      }
+    ],
+      "airlines":  [
+        ["sia", 35]
+      ],
+      "type": "random",
+      "frequency": [27,33],
+      "altitude":  11000
+    },
+   {
+      "_name":  "KARTO",
+      "radial":   96,
+      "heading":  270,
+      "speed":    250,
+      "waypoints": [
+      {
+        "fix": "TOMAN",
+        "speed": 250
+      },
+      {
+        "fix": "KARTO",
+        "speed": 250
+      },
+      {
+        "fix": "KEXAS",
+        "speed": 250,
+        "altitude": 15000
+      },
+      {
+        "fix": "LAVAX",
+        "speed": 220
+      },
+      {
+        "fix": "SANAT",
+        "speed": 190,
+        "altitude": 4000
+      }
+    ],
+      "airlines":  [
+        ["sia", 35]
+      ],
+      "type": "random",
+      "frequency": [27,33],
+      "altitude":  23000
+    },
   ]
 }
