@@ -415,6 +415,6 @@
       "type": "random",
       "frequency": [27,33],
       "altitude":  23000
-    },
+    }
   ]
 }
