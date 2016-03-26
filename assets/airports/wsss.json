@@ -310,16 +310,16 @@
         "fix": "BOBAG",
         "speed": 220,
         "altitude": 10000
-      }
+      },
       {
         "fix": "BOKIP",
         "altitude": 6000
-      }
+      },
       {
         "fix": "SAMKO",
         "speed": 190,
         "altitude": 4000
-      }
+      },
     ],
       "airlines":  [
         ["sia", 35],
