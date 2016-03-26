@@ -305,21 +305,20 @@
       {
         "fix": "ARAMA",
         "speed": 250,
-        "altitude": 10000+
       },
       {
         "fix": "BOBAG",
         "speed": 220,
-        "altitude": 10000+
+        "altitude": 10000
       }
       {
         "fix": "BOKIP",
-        "altitude": 6000+
+        "altitude": 6000
       }
       {
         "fix": "SAMKO",
         "speed": 190,
-        "altitude": 4000+
+        "altitude": 4000
       }
     ],
       "airlines":  [
@@ -333,7 +332,7 @@
       "frequency": [27,33],
       "period": 60,
       "offset": 15,
-      "altitude":  10000
+      "altitude":  11000
     }
   ]
 }
