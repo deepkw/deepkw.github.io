@@ -285,7 +285,15 @@
         ["slk", 83],
         ["jsa", 72],
         ["tgw", 72],
-        ["axm", 40]
+        ["axm", 40],
+        ["gia", 18],
+        ["mas", 17],
+        ["ffm", 14],
+        ["sco", 14],
+        ["cpa", 13],
+        ["lni", 11],
+        ["hvn", 10],
+        ["uae", 9],
       ],
       "destinations": [
         "ANITO", "ADMIM", "TOMAN", "BAVUS", "AROSO", "MASBO", "MERSING", "VENIX", "KADAR"
