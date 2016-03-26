@@ -223,7 +223,6 @@ function airline_init() {
   airline_load("LNI");
   airline_load("HVN");
   airline_load("UAE");
-  airline_load("LNI");
 
 }
 
