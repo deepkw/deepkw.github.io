@@ -319,7 +319,7 @@
         "fix": "SAMKO",
         "speed": 190,
         "altitude": 4000
-      },
+      }
     ],
       "airlines":  [
         ["sia", 35],
