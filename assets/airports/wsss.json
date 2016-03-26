@@ -292,7 +292,7 @@
       ],
       "type": "cyclic",
       "frequency": [27,33],
-      "period": 60
+      "period": 60,
       "offset": 15
  },
   "arrivals": [
@@ -309,9 +309,10 @@
         ["tgw", 26],
         ["axm", 21]
       ],
-      "type": "wave",
-      "offset": 0,
-      "frequency": 12,
+      "type": "cyclic",
+      "frequency": [27,33],
+      "period": 60,
+      "offset": 15,
       "altitude":  10000
     }
   ]
