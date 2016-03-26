@@ -9,7 +9,7 @@
   "icao": "WSSS",
   "iata": "SIN",
   "magnetic_north": 0.24,
-  "ctr_radius": 120,
+  "ctr_radius": 180,
   "ctr_ceiling": 23000,
   "initial_alt": 5000,
   "position": ["N1.364420", "E103.991531"],
@@ -389,7 +389,7 @@
       {
         "fix": "KEXAS",
         "speed": 250,
-        "altitude": 11000
+        "altitude": 15000
       },
       {
         "fix": "LAVAX",
@@ -406,7 +406,7 @@
       ],
       "type": "random",
       "frequency": [9,10],
-      "altitude":  11000
+      "altitude":  20000
     }
   ]
 }
