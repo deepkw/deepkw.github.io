@@ -345,7 +345,7 @@
         ["uae", 10]
       ],
       "type": "random",
-      "frequency": [27,33],
+      "frequency": [9,10],
       "altitude":  11000
     },
     {
@@ -377,13 +377,13 @@
         ["sia", 35]
       ],
       "type": "random",
-      "frequency": [27,33],
+      "frequency": [9,10],
       "altitude":  11000
     },
    {
       "_name":  "KARTO",
       "radial":   96,
-      "heading":  270,
+      "heading":  276,
       "speed":    250,
       "waypoints": [
       {
@@ -413,7 +413,52 @@
         ["sia", 35]
       ],
       "type": "random",
-      "frequency": [27,33],
+      "frequency": [9,10],
+      "altitude":  23000
+    }
+    {
+      "_name":  "OBDOS",
+      "radial":   107,
+      "heading":  287,
+      "speed":    250,
+      "waypoints": [
+      {
+        "fix": "OBDOS",
+        "speed": 250
+      },
+      {
+        "fix": "IKAGO",
+        "speed": 250
+      },
+      {
+        "fix": "IKIMA",
+        "speed": 250
+      },
+      {
+        "fix": "IBULA",
+        "speed": 250,
+        "altitude": 15000
+      },
+      {
+        "fix": "LAVAX",
+        "speed": 220
+      },
+      {
+        "fix": "IGNON",
+        "speed": 220,
+        "altitude": 7000
+      },
+      {
+        "fix": "SANAT",
+        "speed": 190,
+        "altitude": 4000
+      }
+    ],
+      "airlines":  [
+        ["sia", 35]
+      ],
+      "type": "random",
+      "frequency": [9,10],
       "altitude":  23000
     }
   ]
