@@ -216,6 +216,11 @@ function airline_init() {
   airline_load("JSA");
   airline_load("TGW");
   airline_load("AXM");
+  airline_load("GIA");
+  airline_load("MAS");
+  airline_load("FFM");
+  airline_load("SCO");
+  airline_load("LNI");
 
 }
 
