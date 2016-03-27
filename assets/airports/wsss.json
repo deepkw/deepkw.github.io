@@ -416,7 +416,6 @@
       "frequency": [9,10],
       "altitude":  20000
     },
-    ,
     {
       "_name":  "OBDOS",
       "radial":   107,
@@ -460,9 +459,8 @@
       ],
       "type": "random",
       "frequency": [9,10],
-      "altitude":  23000
+      "altitude":  20000
     },
-    ,
     {
       "_name":  "OBDOS",
       "radial":   107,
@@ -470,7 +468,7 @@
       "speed":    250,
       "waypoints": [
       {
-        "fix": "OBDOS",
+        "fix": "SURGA",
         "speed": 250
       },
       {
@@ -506,7 +504,7 @@
       ],
       "type": "random",
       "frequency": [9,10],
-      "altitude":  23000
+      "altitude":  20000
     }
   ]
 }
