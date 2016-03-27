@@ -722,8 +722,8 @@
   ],
   "restricted": [
     {
-      "name": "WSR-2",
-      "height": "1400ft",
+      "name": "WSR2",
+      "height": "30000ft",
       "coordinates": [
         ["N1 11.06", "E103 29.63"],
         ["N1 9.45", "E103 29.46"],
@@ -744,8 +744,8 @@
       ]
     },
     {
-      "name": "WSD-4",
-      "height": "1400ft",
+      "name": "WSD4",
+      "height": "16000ft",
       "coordinates": [
         ["N1 15.01", "E103 41.45"],
         ["N1 13.24", "E103 40.50"],
