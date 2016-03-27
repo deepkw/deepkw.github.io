@@ -387,6 +387,14 @@
       "speed":    250,
       "waypoints": [
       {
+        "fix": "TOMAN",
+        "speed": 250
+      },
+      {
+        "fix": "KARTO",
+        "speed": 250
+      },
+      {
         "fix": "KEXAS",
         "speed": 250,
         "altitude": 15000
