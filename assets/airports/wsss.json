@@ -68,8 +68,8 @@
     "AKMET": ["N1 53 55", "E103 43 39"],
     "AROSO": ["N2 08 46", "E103 24 21"],
     
-    "VENIX": ["N0 17 23", "E106 05 57"],
-    "SURGA": ["N0 33 05", "E106 31 93"],
+    "VENIX": ["S0 17 23", "E106 05 57"],
+    "SURGA": ["S0 33 05", "E106 31 93"],
     
     "KADAR": ["N0 06 47", "E107 43 42"],
     
@@ -419,11 +419,56 @@
     {
       "_name":  "OBDOS",
       "radial":   107,
-      "heading":  287,
+      "heading":  279,
       "speed":    250,
       "waypoints": [
       {
         "fix": "OBDOS",
+        "speed": 250
+      },
+      {
+        "fix": "IKAGO",
+        "speed": 250
+      },
+      {
+        "fix": "IKIMA",
+        "speed": 250
+      },
+      {
+        "fix": "IBULA",
+        "speed": 250,
+        "altitude": 16000
+      },
+      {
+        "fix": "LAVAX",
+        "speed": 220
+      },
+      {
+        "fix": "IGNON",
+        "speed": 220,
+        "altitude": 8000
+      },
+      {
+        "fix": "SANAT",
+        "speed": 190,
+        "altitude": 4000
+      }
+    ],
+      "airlines":  [
+        ["sia", 35]
+      ],
+      "type": "random",
+      "frequency": [9,10],
+      "altitude":  21000
+    },
+    {
+      "_name":  "SURGA",
+      "radial":   127,
+      "heading":  320,
+      "speed":    250,
+      "waypoints": [
+      {
+        "fix": "SURGA",
         "speed": 250
       },
       {
@@ -462,36 +507,123 @@
       "altitude":  20000
     },
     {
-      "_name":  "SURGA",
-      "radial":   127,
-      "heading":  307,
+      "_name":  "BIKTA",
+      "radial":   348,
+      "heading":  120,
       "speed":    250,
       "waypoints": [
       {
-        "fix": "SURGA",
+        "fix": "BIKTA",
         "speed": 250
       },
       {
-        "fix": "IKAGO",
+        "fix": "PIBAP",
         "speed": 250
       },
       {
-        "fix": "IKIMA",
-        "speed": 250
-      },
-      {
-        "fix": "IBULA",
-        "speed": 250,
-        "altitude": 15000
-      },
-      {
-        "fix": "LAVAX",
+        "fix": "PASPU",
         "speed": 220
       },
       {
-        "fix": "IGNON",
+        "fix": "NYLON",
+        "speed": 220
+      },
+      {
+        "fix": "POSUB",
         "speed": 220,
-        "altitude": 7000
+        "altitude": 6000
+      },
+      {
+        "fix": "SANAT",
+        "speed": 190,
+        "altitude": 4000
+      }
+    ],
+      "airlines":  [
+        ["sia", 35]
+      ],
+      "type": "random",
+      "frequency": [9,10],
+      "altitude":  20000
+    },
+    {
+      "_name":  "VEPLI",
+      "radial":   2,
+      "heading":  180,
+      "speed":    250,
+      "waypoints": [
+      {
+        "fix": "VEPLI",
+        "speed": 250
+      },
+      {
+        "fix": "VINIL",
+        "speed": 250
+      },
+      {
+        "fix": "PIBAP",
+        "speed": 250
+      },
+      {
+        "fix": "PASPU",
+        "speed": 220
+      },
+      {
+        "fix": "NYLON",
+        "speed": 220
+      },
+      {
+        "fix": "POSUB",
+        "speed": 220,
+        "altitude": 6000
+      },
+      {
+        "fix": "SANAT",
+        "speed": 190,
+        "altitude": 4000
+      }
+    ],
+      "airlines":  [
+        ["sia", 35]
+      ],
+      "type": "random",
+      "frequency": [9,10],
+      "altitude":  20000
+    },
+    {
+      "_name":  "MABAL",
+      "radial":   30,
+      "heading":  231,
+      "speed":    250,
+      "waypoints": [
+      {
+        "fix": "MABAL",
+        "speed": 250
+      },
+      {
+        "fix": "KILOT",
+        "speed": 250
+      },
+      {
+        "fix": "VINIL",
+        "speed": 250
+      },
+      {
+        "fix": "PIBAP",
+        "speed": 250
+      },
+      {
+        "fix": "PASPU",
+        "speed": 220
+      },
+      {
+        "fix": "NYLON",
+        "speed": 220
+      },
+      {
+        "fix": "POSUB",
+        "speed": 220,
+        "altitude": 6000
       },
       {
         "fix": "SANAT",
