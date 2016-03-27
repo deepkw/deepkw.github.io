@@ -330,19 +330,21 @@
       }
     ],
       "airlines":  [
-        ["sia", 35],
-        ["slk", 39],
-        ["jsa", 18],
+        ["sia", 30],
+        ["slk", 34],
+        ["jsa", 14],
         ["tgw", 26],
         ["axm", 21],
-        ["gia", 4],
-        ["mas", 16],
+        ["gia", 6],
+        ["mas", 14],
         ["ffm", 14],
-        ["sco", 14],
-        ["cpa", 6],
-        ["lni", 3],
-        ["hvn", 4],
-        ["uae", 10]
+        ["cpa", 5],
+        ["uae", 5],
+        ["baw", 14],
+        ["ces", 10],
+        ["fastga", 6],
+        ["ap-dlh", 10],
+        ["klm", 10]
       ],
       "type": "random",
       "frequency": [9,10],
@@ -627,6 +629,34 @@
       },
       {
         "fix": "SANAT",
+        "speed": 190,
+        "altitude": 4000
+      }
+    ],
+      "airlines":  [
+        ["sia", 35]
+      ],
+      "type": "random",
+      "frequency": [9,10],
+      "altitude":  20000
+    },
+    {
+      "_name":  "REPOV",
+      "radial":   176,
+      "heading":  348,
+      "speed":    250,
+      "waypoints": [
+      {
+        "fix": "REPOV",
+        "speed": 250
+      },
+      {
+        "fix": "REMES",
+        "speed": 220,
+        "altitude": 6000
+      },
+      {
+        "fix": "SAMKO",
         "speed": 190,
         "altitude": 4000
       }
