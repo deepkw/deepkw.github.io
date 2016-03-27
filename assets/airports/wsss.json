@@ -340,11 +340,12 @@
         ["ffm", 14],
         ["cpa", 5],
         ["uae", 5],
-        ["baw", 14],
+        ["baw", 8],
         ["ces", 10],
         ["fastga", 6],
         ["ap-dlh", 10],
-        ["klm", 10]
+        ["klm", 10],
+        ["thy", 6]
       ],
       "type": "random",
       "frequency": [9,10],
@@ -376,10 +377,14 @@
       }
     ],
       "airlines":  [
-        ["sia", 35]
+        ["sia", 3],
+        ["slk", 4],
+        ["jsa", 2],
+        ["tgw", 1],
+        ["fastga", 1]
       ],
       "type": "random",
-      "frequency": [9,10],
+      "frequency": [0,1],
       "altitude":  11000
     },
    {
@@ -412,10 +417,18 @@
       }
     ],
       "airlines":  [
-        ["sia", 35]
+        ["sia", 7],
+        ["slk", 4],
+        ["jsa", 4],
+        ["tgw", 7],
+        ["axm", 4],
+        ["ces", 7],
+        ["mas", 5],
+        ["csn", 4],
+        ["dal/long", 3]
       ],
       "type": "random",
-      "frequency": [9,10],
+      "frequency": [2,3],
       "altitude":  20000
     },
     {
@@ -457,10 +470,15 @@
       }
     ],
       "airlines":  [
-        ["sia", 35]
+        ["sia", 21],
+        ["slk", 1],
+        ["sco", 5],
+        ["jsa", 4],
+        ["baw", 6],
+        ["uae", 8],
       ],
       "type": "random",
-      "frequency": [9,10],
+      "frequency": [1,2],
       "altitude":  21000
     },
     {
@@ -502,10 +520,10 @@
       }
     ],
       "airlines":  [
-        ["sia", 35]
+        ["fastga", 1]
       ],
       "type": "random",
-      "frequency": [9,10],
+      "frequency": [0,1],
       "altitude":  20000
     },
     {
@@ -542,10 +560,16 @@
       }
     ],
       "airlines":  [
-        ["sia", 35]
+        ["sia", 2],
+        ["slk", 3],
+        ["sco", 6],
+        ["jsa", 3],
+        ["tgw", 3],
+        ["fdx", 4],
+        ["fastga", 3]
       ],
       "type": "random",
-      "frequency": [9,10],
+      "frequency": [1,2],
       "altitude":  20000
     },
     {
@@ -586,10 +610,18 @@
       }
     ],
       "airlines":  [
-        ["sia", 35]
+        ["sia", 12],
+        ["slk", 6],
+        ["sco", 4],
+        ["jsa", 14],
+        ["tgw", 7],
+        ["axm", 7],
+        ["cpa", 2],
+        ["lni", 8],
+        ["fastga", 3]
       ],
       "type": "random",
-      "frequency": [9,10],
+      "frequency": [2,3],
       "altitude":  20000
     },
     {
@@ -634,10 +666,20 @@
       }
     ],
       "airlines":  [
-        ["sia", 35]
+        ["sia", 46],
+        ["slk", 15],
+        ["sco", 6],
+        ["jsa", 11],
+        ["tgw", 20],
+        ["cpa", 14],
+        ["ces", 11],
+        ["csn", 12],
+        ["dal/long", 5],
+        ["ual/long", 14],
+        ["hvn", 14]
       ],
       "type": "random",
-      "frequency": [9,10],
+      "frequency": [7,8],
       "altitude":  20000
     },
     {
@@ -662,10 +704,19 @@
       }
     ],
       "airlines":  [
-        ["sia", 35]
+        ["sia", 23],
+        ["slk", 9],
+        ["axm", 15],
+        ["jsa", 15],
+        ["tgw", 8],
+        ["ap-dlh", 3],
+        ["cpa", 3],
+        ["gia", 17],
+        ["klm", 2],
+        ["lni", 11]
       ],
       "type": "random",
-      "frequency": [9,10],
+      "frequency": [4,5],
       "altitude":  20000
     }
   ]
