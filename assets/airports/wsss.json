@@ -9,7 +9,7 @@
   "icao": "WSSS",
   "iata": "SIN",
   "magnetic_north": 0.24,
-  "ctr_radius": 180,
+  "ctr_radius": 200,
   "ctr_ceiling": 23000,
   "initial_alt": 5000,
   "position": ["N1.364420", "E103.991531"],
@@ -462,9 +462,9 @@
       "altitude":  20000
     },
     {
-      "_name":  "OBDOS",
-      "radial":   107,
-      "heading":  287,
+      "_name":  "SURGA",
+      "radial":   127,
+      "heading":  307,
       "speed":    250,
       "waypoints": [
       {
